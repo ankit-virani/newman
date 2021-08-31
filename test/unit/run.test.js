@@ -1,4 +1,4 @@
-var _ = require('lodash'),
+const _ = require('lodash'),
     path = require('path'),
     async = require('async'),
     sinon = require('sinon'),

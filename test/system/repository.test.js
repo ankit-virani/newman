@@ -2,7 +2,7 @@
  * @fileOverview This test specs runs tests on the package.json file of repository. It has a set of strict tests on the
  * content of the file as well. Any change to package.json must be accompanied by valid test case in this spec-sheet.
  */
-var fs = require('fs'),
+const fs = require('fs'),
     _ = require('lodash'),
     yml = require('js-yaml'),
     semver = require('semver'),

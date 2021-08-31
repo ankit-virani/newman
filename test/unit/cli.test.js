@@ -1,5 +1,5 @@
 describe('cli parser', function () {
-    var _ = require('lodash'),
+    const _ = require('lodash'),
         sinon = require('sinon'),
         newman = require('../../'),
         newmanCLI,

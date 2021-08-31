@@ -2,7 +2,7 @@
 require('shelljs/global');
 require('colors');
 
-var fs = require('fs'),
+const fs = require('fs'),
     _ = require('lodash'),
     pathUtils = require('path'),
     async = require('async'),

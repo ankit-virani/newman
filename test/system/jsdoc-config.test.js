@@ -4,7 +4,7 @@
  * spec-sheet.
  */
 describe('JSDoc configuration', function () {
-    var fs = require('fs'),
+    const fs = require('fs'),
         _ = require('lodash'),
 
         json,

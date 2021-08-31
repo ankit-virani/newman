@@ -1,4 +1,4 @@
-var _ = require('lodash'),
+const _ = require('lodash'),
     runtimeVersion = require('../../package.json').dependencies['postman-runtime'];
 
 describe('Newman run options', function () {

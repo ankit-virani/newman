@@ -1,4 +1,4 @@
-var _ = require('lodash'),
+const _ = require('lodash'),
     { VariableScope } = require('postman-collection'),
     options = require('../../lib/run/options');
 
